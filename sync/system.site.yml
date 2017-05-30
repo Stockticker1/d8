@@ -1,0 +1,14 @@
+uuid: a1c78b4c-c167-47f7-b821-15e68cd0549a
+name: drupaltest
+mail: mshulga93@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
