@@ -1,0 +1,25 @@
+uuid: 5708060f-a97e-46aa-8c14-0a747973c4d7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pdf_file_:dab71309-cc67-4bb6-a027-113ddc80676b'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: pdffileblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:dab71309-cc67-4bb6-a027-113ddc80676b'
+settings:
+  id: 'block_content:dab71309-cc67-4bb6-a027-113ddc80676b'
+  label: 'pdf file block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

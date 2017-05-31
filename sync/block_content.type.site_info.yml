@@ -1,0 +1,8 @@
+uuid: 007ff509-cd42-4807-b960-feb71d84067f
+langcode: en
+status: true
+dependencies: {  }
+id: site_info
+label: 'Site info'
+revision: 0
+description: ''

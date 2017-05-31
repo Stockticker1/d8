@@ -1,0 +1,19 @@
+uuid: 8ed30bd3-64bc-4201-ac8c-d765e90cf729
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_info_link
+field_name: field_info_link
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

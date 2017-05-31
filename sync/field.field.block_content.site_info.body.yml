@@ -1,0 +1,22 @@
+uuid: ba134cf0-acab-440c-a30d-18f0484a94d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_info
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.site_info.body
+field_name: body
+entity_type: block_content
+bundle: site_info
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
