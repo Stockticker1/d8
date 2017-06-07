@@ -1,0 +1,29 @@
+uuid: b8dbc7cf-088e-4aca-b999-cb754b871968
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_job_role
+    - taxonomy.vocabulary.jobs
+  module:
+    - user
+id: user.user.field_job_role
+field_name: field_job_role
+entity_type: user
+bundle: user
+label: 'job role'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      jobs: jobs
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

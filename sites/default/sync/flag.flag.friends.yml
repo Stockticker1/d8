@@ -1,0 +1,30 @@
+uuid: 831e3afa-fc40-4407-abcd-cf65709d2b9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: friends
+label: friends
+bundles: {  }
+entity_type: user
+global: false
+weight: 0
+flag_short: 'Flag this item'
+flag_long: 'Make a friend!!!'
+flag_message: ''
+unflag_short: 'Unflag this item'
+unflag_long: ''
+unflag_message: ''
+unflag_denied_text: ''
+flag_type: 'entity:user'
+link_type: reload
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+  show_on_profile: true
+linkTypeConfig: {  }

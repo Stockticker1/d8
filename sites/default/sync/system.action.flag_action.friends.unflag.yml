@@ -1,0 +1,13 @@
+uuid: ea508f4b-c30e-48f2-be1d-ed79dada2e3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.friends.unflag
+label: 'Unflag this item'
+type: user
+plugin: 'flag_action:friends.unflag'
+configuration:
+  flag_id: friends
+  flag_action: unflag

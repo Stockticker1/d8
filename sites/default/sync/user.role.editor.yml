@@ -1,0 +1,34 @@
+uuid: 5e12d59b-7fa7-499f-be6c-152296073061
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: editor
+weight: 5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'create blog content'
+  - 'create page content'
+  - 'create test content'
+  - 'delete any blog content'
+  - 'delete any page content'
+  - 'delete any test content'
+  - 'delete blog revisions'
+  - 'delete own blog content'
+  - 'delete own page content'
+  - 'delete own test content'
+  - 'delete page revisions'
+  - 'delete test revisions'
+  - 'edit any blog content'
+  - 'edit any page content'
+  - 'edit any test content'
+  - 'edit own blog content'
+  - 'edit own page content'
+  - 'edit own test content'
+  - 'revert blog revisions'
+  - 'revert page revisions'
+  - 'revert test revisions'
+  - 'view blog revisions'
+  - 'view page revisions'
+  - 'view test revisions'

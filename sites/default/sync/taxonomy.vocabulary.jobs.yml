@@ -1,0 +1,9 @@
+uuid: acba9d4d-72b9-464c-994d-5705310d311d
+langcode: en
+status: true
+dependencies: {  }
+name: jobs
+vid: jobs
+description: ''
+hierarchy: 0
+weight: 0

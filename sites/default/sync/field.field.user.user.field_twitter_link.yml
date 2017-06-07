@@ -1,0 +1,23 @@
+uuid: e1be5dfc-b977-4513-b76c-ef496da75c56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_twitter_link
+  module:
+    - link
+    - user
+id: user.user.field_twitter_link
+field_name: field_twitter_link
+entity_type: user
+bundle: user
+label: 'twitter link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

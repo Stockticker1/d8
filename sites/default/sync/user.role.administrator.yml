@@ -7,5 +7,15 @@ _core:
 id: administrator
 label: Administrator
 weight: 2
-is_admin: true
-permissions: {  }
+is_admin: false
+permissions:
+  - 'administer account settings'
+  - 'create article content'
+  - 'delete any article content'
+  - 'delete article revisions'
+  - 'delete own article content'
+  - 'edit any article content'
+  - 'edit own article content'
+  - 'revert article revisions'
+  - 'skip CAPTCHA'
+  - 'view article revisions'

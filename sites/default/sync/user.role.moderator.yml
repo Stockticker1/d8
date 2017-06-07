@@ -1,0 +1,52 @@
+uuid: 941e017c-952d-402f-81db-a3f1d4f19548
+langcode: en
+status: true
+dependencies: {  }
+id: moderator
+label: moderator
+weight: 4
+is_admin: null
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'administer account settings'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'administer users'
+  - 'bypass node access'
+  - 'create article content'
+  - 'create blog content'
+  - 'create page content'
+  - 'create test content'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any blog content'
+  - 'delete any page content'
+  - 'delete any test content'
+  - 'delete article revisions'
+  - 'delete blog revisions'
+  - 'delete own article content'
+  - 'delete own blog content'
+  - 'delete own page content'
+  - 'delete own test content'
+  - 'delete page revisions'
+  - 'delete test revisions'
+  - 'edit any article content'
+  - 'edit any blog content'
+  - 'edit any page content'
+  - 'edit any test content'
+  - 'edit own article content'
+  - 'edit own blog content'
+  - 'edit own page content'
+  - 'edit own test content'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert blog revisions'
+  - 'revert page revisions'
+  - 'revert test revisions'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view blog revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view test revisions'
