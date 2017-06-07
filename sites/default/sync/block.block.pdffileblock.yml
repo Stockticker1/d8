@@ -11,7 +11,7 @@ dependencies:
 id: pdffileblock
 theme: bartik
 region: sidebar_first
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:dab71309-cc67-4bb6-a027-113ddc80676b'
 settings:

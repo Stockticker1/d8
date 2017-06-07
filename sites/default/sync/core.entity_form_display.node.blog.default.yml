@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.blog.body
     - field.field.node.blog.field_coments
     - field.field.node.blog.field_date
+    - field.field.node.blog.field_extend_contact
     - field.field.node.blog.field_image
     - field.field.node.blog.field_priority
     - field.field.node.blog.field_related_external_link
@@ -15,6 +16,7 @@ dependencies:
   module:
     - comment
     - datetime
+    - field_collection
     - image
     - link
     - path
@@ -50,6 +52,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
+    region: content
+  field_extend_contact:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
     region: content
   field_image:
     weight: 8

@@ -1,0 +1,22 @@
+uuid: 016c35b4-d6c1-4f29-bbe4-a6a5089b8f53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_extend_contact
+    - node.type.blog
+  module:
+    - field_collection
+id: node.blog.field_extend_contact
+field_name: field_extend_contact
+entity_type: node
+bundle: blog
+label: 'extend contact'
+description: ''
+required: false
+translatable: false
+default_value:
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

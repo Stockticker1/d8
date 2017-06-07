@@ -1,0 +1,57 @@
+uuid: d3e66019-16e6-4b33-b05a-7a3e9729b68a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_extend_contact.field_country
+    - field.field.field_collection_item.field_extend_contact.field_postal_
+    - field.field.field_collection_item.field_extend_contact.field_region
+    - field.field.field_collection_item.field_extend_contact.field_street_adress
+    - field.field.field_collection_item.field_extend_contact.field_town_city
+    - field_collection.field_collection.field_extend_contact
+  module:
+    - text
+id: field_collection_item.field_extend_contact.default
+targetEntityType: field_collection_item
+bundle: field_extend_contact
+mode: default
+content:
+  field_country:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_postal_:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_region:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_street_adress:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_town_city:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden: {  }

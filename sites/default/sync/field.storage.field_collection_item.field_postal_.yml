@@ -1,0 +1,20 @@
+uuid: d8d1f4d2-6d98-43be-a3d2-a0aba6a430b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - text
+id: field_collection_item.field_postal_
+field_name: field_postal_
+entity_type: field_collection_item
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

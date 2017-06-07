@@ -1,0 +1,28 @@
+uuid: d2814826-945f-48ad-a9cc-0ac6a7202aaf
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - easy_social
+  theme:
+    - bartik
+id: easysocial
+theme: bartik
+region: content
+weight: -6
+provider: null
+plugin: easy_social_block
+settings:
+  id: easy_social_block
+  label: 'Easy Social'
+  provider: easy_social
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

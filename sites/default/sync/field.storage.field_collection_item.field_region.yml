@@ -1,0 +1,20 @@
+uuid: bb84de0e-8435-4202-a338-d250fbb4a09f
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - text
+id: field_collection_item.field_region
+field_name: field_region
+entity_type: field_collection_item
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
